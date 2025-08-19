@@ -1,0 +1,66 @@
+# -----------------
+# macOS 系统垃圾文件
+# -----------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.DocumentRevisions-V100
+.TemporaryItems
+.apdisk
+.com.apple.timemachine.donotpresent
+*.icloud
+
+# -----------------
+# 通用编辑器/工具缓存
+# -----------------
+# VS Code（通常建议忽略整个 .vscode，若需同步部分配置可改为白名单）
+.vscode/
+# JetBrains / Android Studio
+.idea/
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# -----------------
+# 常见构建/依赖产物（按需保留）
+# -----------------
+# SwiftPM / Xcode
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserdatad/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.dSYM
+*.dSYM.zip
+build/
+
+# Node / JS（如果不是 JS 项目可删除）
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Python（如果不是 Python 项目可删除）
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# 日志与环境变量（按需开启）
+*.log
+.env
+.env.*
