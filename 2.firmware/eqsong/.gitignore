@@ -1,0 +1,40 @@
+# PlatformIO 核心忽略规则
+.pio/
+.pioenvs/
+.piolibdeps/
+.piolib/
+.pio/build/
+.pio/run/
+
+# VSCode 项目文件
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/.browse.c_cpp.db*
+.vscode/ipch/
+.vscode/c_cpp_properties.json  # 通常由 PlatformIO 自动生成，无需提交
+
+# 编译输出和调试文件
+*.bin
+*.elf
+*.hex
+*.map
+*.lst
+*.log
+
+# 本地环境文件
+.env
+.secret
+
+# 系统/编辑器临时文件
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Git 相关
+*.orig
+*.rej
